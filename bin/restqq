@@ -1,6 +1,6 @@
 #!/usr/bin/env coffee
 
-Rest_QQ    = require '..'
+RestQQ    = require '..'
 
 Fs       = require 'fs'
 OptParse = require 'optparse'
@@ -28,7 +28,7 @@ unless process.platform is "win32"
     process.on 'SIGTERM', ->
         process.exit 0
 
-    restQQ = Rest_QQ.load()
+    restQQ = RestQQ.load()
     if Options.version
         console.log restQQ.version
         process.exit 0
