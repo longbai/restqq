@@ -9,7 +9,7 @@
     "webqq",
     "restful",
     "hipchat",
-    "bot",
+    "bot"
   ],
 
   "description": "Webqq client with restful api for amazing things",
@@ -25,11 +25,11 @@
   },
 
   "dependencies": {
-    "coffee-script":      "1.6.3",
-    "optparse":           "1.0.4",
+    "coffee-script":      "1.7.1",
+    "optparse":           "1.0.5",
     "scoped-http-client": "0.9.8",
     "log":                "1.4.0",
-    "express":            "3.3.4"
+    "express":            "3.5.0"
   },
 
   "engines": {
