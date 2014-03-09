@@ -1,0 +1,38 @@
+# http://EditorConfig.org
+
+root = true
+
+[*]
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[**.js]
+indent_style = space
+indent_size = 4
+quote_type = single
+spaces_around_operators = true
+curly_bracket_next_line = false
+spaces_around_brackets = outside
+
+[**.coffee]
+indent_style = space
+indent_size = 4
+quote_type = single
+spaces_around_operators = true
+curly_bracket_next_line = false
+spaces_around_brackets = outside
+
+[**.html]
+indent_style = space
+indent_size = 2
+quote_type = double
+
+[**.less]
+indent_style = space
+indent_size = 4
+quote_type = double
+
+# [Makefile]
+# indent_style = tab
