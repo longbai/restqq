@@ -1,0 +1,45 @@
+{
+  "name": "restqq",
+  "version": "0.0.1",
+
+  "author": "bailong",
+
+  "keywords": [
+    "qq",
+    "webqq",
+    "restful",
+    "hipchat",
+    "bot",
+  ],
+
+  "description": "Webqq client with restful api for amazing things",
+
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://raw.github.com/longbai/restqq/master/LICENSE"
+  }],
+
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/longbai/restqq.git"
+  },
+
+  "dependencies": {
+    "coffee-script":      "1.6.3",
+    "optparse":           "1.0.4",
+    "scoped-http-client": "0.9.8",
+    "log":                "1.4.0",
+    "express":            "3.3.4"
+  },
+
+  "engines": {
+    "node": ">= 0.8.x",
+    "npm":  ">= 1.1.x"
+  },
+
+  "main": "./index",
+
+  "bin": {
+    "restqq": "./bin/restqq"
+  }
+}
